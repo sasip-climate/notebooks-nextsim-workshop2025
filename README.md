@@ -9,6 +9,7 @@ You need 3 ingredients :
 
 These operations can be done on your laptop or any clusters that allow a docker deployment, you r workspace should be organized like this :
 
+```
 YOURHOME/OR/WORKDIR
 ├── nextsim-workshop2025 (git repo)
 │   └── notebooks
@@ -19,5 +20,5 @@ YOURHOME/OR/WORKDIR
 │   ├── data-assimiliation-nextsimdg
 │   ├── nextsimdg
 │   └── tuto
-
+```
 
