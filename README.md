@@ -7,7 +7,7 @@ You need 3 ingredients :
   - the [data](#data)
   - the [computing environment](#computing-environment)
 
-We suggest that you create a dedicated repository `nextsim-workshop`on your laptop or on a cluster that supports docker and where at 15Gb of storage is available. All the following operations are now done in this directory
+We suggest that you create a dedicated repository `nextsim-workshop`on your laptop or on a cluster that supports docker and where at least 15Gb of storage is available. All the following operations will be done in this directory
 
 
 ## Notebooks
