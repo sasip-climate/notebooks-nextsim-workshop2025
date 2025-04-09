@@ -19,7 +19,7 @@ The minimal dataset needed to run each examples can be downloaded with `wget htt
 ## Computing environment
 The docker image containing the needed libraries and a compiled version of nextsimdg can be downloaded from [here](https://quay.io/repository/auraoupa/nextsim-workshop?tab=tags) with the command `docker pull quay.io/auraoupa/nextsim-workshop:146ddc41ba09`
 
-You then launch the downloaded docker image with the command `docker run --rm -v /YOURPATH/nextsim-workshop:/home/nextsim-workshop -p 8888:8888 nextsim-workshop:146ddc41ba09` where YOURPATH must be replaced by the absolute path on your laptop leading to the `nextsim-workshop` dir
+You then launch the downloaded docker image with the command `docker run --rm -v /YOURPATH/nextsim-workshop:/home/nextsim-workshop -p 8888:8888 nextsim-workshop:146ddc41ba09` where YOURPATH must be replaced by the absolute path on your laptop leading to the `nextsim-workshop` directory
 
 A jupyterlab is now deployed, you just have to open in a browser the given adress `http://127.0.0.1:8888/lab?token=...` with your assigned token
 
@@ -40,5 +40,5 @@ YOURPATH/nextsim-workshop
 │   └── tuto
 ```
 
-And the mirror of it on jupyterlab, with extras repositories `NEDAS` and `nextsimdg` at the same level than `nextsim-workshop`
+And the mirror of it on jupyterlab, with extra repositories `NEDAS` and `nextsimdg` at the same level than `nextsim-workshop`
 
