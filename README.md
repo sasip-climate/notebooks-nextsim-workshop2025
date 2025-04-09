@@ -25,7 +25,7 @@ A jupyterlab is now deployed, you just have to open in a browser the given adres
 
 ## Results
 
-You should have this tree of repos on your laptop :
+You should have this tree of directories on your laptop :
 
 ```
 YOURPATH/nextsim-workshop
