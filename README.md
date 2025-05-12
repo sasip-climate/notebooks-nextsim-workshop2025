@@ -17,7 +17,7 @@ The notebooks are stored in this very repo, download them with : `git clone http
 The minimal dataset needed to run each examples can be downloaded with `wget https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/fileServer/meomopendap/extract/SASIP/data-nextsim-workshop2025.tar` and then untar with `tar -xvf data-nextsim-workshop2025.tar`
 
 ## Computing environment
-The docker image containing the needed libraries and a compiled version of nextsimdg can be downloaded and open with the command :
+The docker image containing the needed libraries and a compiled version of nextsimdg can be downloaded with the command :
 
 ```bash
 docker run --rm -v /YOURPATH/nextsim-workshop:/home/nextsim-workshop -p 8888:8888 quay.io/auraoupa/nextsim-workshop:615073e1b4f2
