@@ -9,6 +9,9 @@ You need 3 ingredients :
 
 We suggest that you create a dedicated repository `nextsim-workshop` on your laptop or on a cluster that supports docker and where at least 15Gb of storage is available. All the following operations will be done in this directory
 
+## Prerequisites
+
+If you don't have docker on your machine, you need to install it : https://docs.docker.com/get-started/get-docker/
 
 ## Notebooks
 The notebooks are stored in this very repo, download them with : `git clone https://github.com/sasip-climate/nextsim-workshop2025.git`
