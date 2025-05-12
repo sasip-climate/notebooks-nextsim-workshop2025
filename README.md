@@ -17,7 +17,13 @@ The notebooks are stored in this very repo, download them with : `git clone http
 The minimal dataset needed to run each examples can be downloaded with `wget https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/fileServer/meomopendap/extract/SASIP/data-nextsim-workshop2025.tar` and then untar with `tar -xvf data-nextsim-workshop2025.tar`
 
 ## Computing environment
-The docker image containing the needed libraries and a compiled version of nextsimdg can be downloaded and open with the command `docker run --rm -v /YOURPATH/nextsim-workshop:/home/nextsim-workshop -p 8888:8888 quay.io/auraoupa/nextsim-workshop:615073e1b4f2` where YOURPATH must be replaced by the absolute path on your laptop leading to the `nextsim-workshop` directory
+The docker image containing the needed libraries and a compiled version of nextsimdg can be downloaded and open with the command :
+
+```bash
+docker run --rm -v /YOURPATH/nextsim-workshop:/home/nextsim-workshop -p 8888:8888 quay.io/auraoupa/nextsim-workshop:615073e1b4f2
+```
+
+where `YOURPATH` must be replaced by the absolute path on your laptop leading to the `nextsim-workshop` directory
 
 A jupyterlab is now deployed, you just have to open in a browser the given adress `http://127.0.0.1:8888/lab?token=...` with your assigned token
 
