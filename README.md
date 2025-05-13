@@ -7,20 +7,27 @@ You need 3 ingredients :
   - the [data](#data)
   - the [computing environment](#computing-environment)
 
-We suggest that you create a dedicated repository `nextsim-workshop` on your laptop or on a cluster that supports docker and where at least 15Gb of storage is available. All the following operations will be done in this directory
 
 ## Prerequisites
 
-If you don't have docker on your machine, you need to install it : https://docs.docker.com/get-started/get-docker/
+You will need docker on your machine, if you do not have it already you can install it from here : https://docs.docker.com/get-started/get-docker/
+You will also need around 30Gb of storage for the data and the docker image
+
+## First step
+
+We suggest that you create a dedicated repository for this workshop that will contain all the ingredients : ```mkdir nextsim-workshop```
 
 ## Notebooks
+
 The notebooks are stored in this very repo, download them with : `git clone https://github.com/sasip-climate/nextsim-workshop2025.git`
 
 ## Data
+
 The minimal dataset needed to run each examples can be downloaded with `wget https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/fileServer/meomopendap/extract/SASIP/data-nextsim-workshop2025.tar` and then untar with `tar -xvf data-nextsim-workshop2025.tar`
 
 ## Computing environment
-The docker image containing the needed libraries and a compiled version of nextsimdg can be downloaded with the command :
+
+The docker image containing the python libraries and a compiled version of nextsimdg can be downloaded with the command :
 
 ```bash
 docker run --rm -v /YOURPATH/nextsim-workshop:/home/nextsim-workshop -p 8888:8888 quay.io/auraoupa/nextsim-workshop:615073e1b4f2
