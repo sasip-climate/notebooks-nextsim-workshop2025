@@ -45,11 +45,11 @@ You should have this tree of directories on your laptop :
 YOURPATH/nextsim-workshop
 ├── nextsim-workshop2025 (git repo)
 │   └── notebooks
-|       ├── data-assimiliation-nextsimdg
+|       ├── assimiliation
 │       ├── nextsimdg
 │       └── tuto
 ├── data-nextsim-workshop2025 (wget)
-│   ├── data-assimiliation-nextsimdg
+│   ├── assimiliation
 │   ├── nextsimdg
 │   └── tuto
 ```
