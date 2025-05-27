@@ -30,7 +30,7 @@ The minimal dataset needed to run each examples can be downloaded with `wget htt
 The docker image containing the python libraries and a compiled version of nextsimdg can be downloaded with the command :
 
 ```bash
-docker run --rm -v /YOURPATH/nextsim-workshop:/home/nextsim-workshop -p 8888:8888 quay.io/auraoupa/nextsim-workshop:615073e1b4f2
+docker run --rm -v /YOURPATH/nextsim-workshop:/home/nextsim-workshop -p 8888:8888 quay.io/auraoupa/nextsim-workshop:4c1b4cb5e52a
 ```
 
 where `YOURPATH` must be replaced by the absolute path on your laptop leading to the `nextsim-workshop` directory
