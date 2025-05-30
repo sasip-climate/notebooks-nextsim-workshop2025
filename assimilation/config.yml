@@ -1,0 +1,124 @@
+work_dir: /home/nextsim-workshop/data-nextsim-workshop2025/assimilation
+
+python_env: /home/nextsim-workshop/notebooks-nextsim-workshop2025/assimilation/python.src
+
+job_submit:
+  host:
+  walltime: 1800
+  run_separate_jobs: False
+
+nproc: 6
+
+nens: 6
+debug: False
+
+time_start: 2010-01-01T00:00:00Z
+time_end: 2010-01-05T00:00:00Z
+time_analysis_start: 2010-01-02T00:00:00Z
+time_analysis_end: 2010-01-04T00:00:00Z
+cycle_period: 6
+obs_time_steps: [0]
+obs_time_scale: 0
+state_time_steps: [0]
+state_time_scale: 0
+
+grid_def:
+  type: nextsim.dg
+
+state_def:
+- name: seaice_conc
+  model_src: nextsim.dg
+  var_type: field
+  err_type: normal
+- name: seaice_thick
+  model_src: nextsim.dg
+  var_type: field
+  err_type: normal
+
+obs_def:
+- name: seaice_conc
+  dataset_src: osisaf.ice_conc
+  model_src: nextsim.dg
+  nobs: 3000
+  err:
+    type: normal
+    std: 0.01
+  hroi: 1e6
+  vroi: inf
+  troi: inf
+  impact_on_state:
+    seaice_conc: 1.0
+
+dataset_def:
+  osisaf.ice_conc:
+    dataset_dir:
+    obs_window_min: -6
+    obs_window_max: 0
+  cs2smos:
+    dataset_dir:
+    obs_window_min: -6
+    obs_window_max: 0
+
+model_def:
+  nextsim.dg:
+    config_file: '/home/nextsim-workshop/notebooks-nextsim-workshop2025/assimilation/nextsim-config.yml'
+    model_env: '/home/nextsim-workshop/notebooks-nextsim-workshop2025/assimilation/setup-docker.src'
+    model_config_file: '/home/nextsim-workshop/notebooks-nextsim-workshop2025/assimilation/template.cfg'
+    nproc_per_run: 1
+    nproc_per_util: 1
+    parallel_mode: openmp
+    walltime: 10000
+    ens_run_type: scheduler
+    use_job_array: False
+    ens_init_dir: '{work_dir}/icbc'
+    truth_dir: '{work_dir}/truth'
+
+use_synthetic_obs: True
+
+perturb:
+
+analysis_scheme: offline_filter
+
+niter: 1
+iter:
+resolution_level: [0]
+character_length: [16]
+localize_scale_fac: [1]
+obs_err_scale_fac: [1]
+
+assimilator_def:
+  type: EAKF
+  config_file:
+
+updator_def:
+  type: additive
+  config_file:
+
+covariance_def:
+  type: ensemble
+
+inflation_def:
+  type: posterior,multiplicative
+  adaptive: True
+  coef: 1.0
+
+localization_def:
+  horizontal:
+    type: gaspari_cohn
+  vertical:
+    type: gaspari_cohn
+  temporal:
+    type: exponential
+
+transform_def:
+- type: scale_bandpass
+  decompose_obs: False
+
+diag:
+- method: misc.convert_output
+  config_file:
+  model_src: nextsim.dg
+  variables: ['seaice_conc', 'seaice_thick', 'seaice_velocity']
+  grid_def:
+  file: '{work_dir}/output/mem{member:03}_{time:%Y-%m-%dT%H}.nc'
+
