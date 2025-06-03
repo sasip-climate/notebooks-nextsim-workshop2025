@@ -57,15 +57,14 @@ You should have this tree of directories on your laptop :
 
 ```
 YOURPATH/nextsim-workshop
-├── nextsim-workshop2025 (git repo)
-│   └── notebooks
-|       ├── assimiliation
-│       ├── nextsimdg
-│       └── tuto
-├── data-nextsim-workshop2025 (wget)
-│   ├── assimiliation
+├── notebooks-nextsim-workshop2025 (git repo)
+│   ├── assimilation
 │   ├── nextsimdg
-│   └── tuto
+│   └── ...
+├── data-nextsim-workshop2025 (wget)
+│   ├── assimilation
+│   ├── nextsimdg
+│   └── ...
 ```
 
 And the mirror of it on jupyterlab, with extra repositories `NEDAS` and `nextsimdg` at the same level than `nextsim-workshop`
