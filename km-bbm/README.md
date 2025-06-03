@@ -8,13 +8,13 @@ In this session of the workshop we will look at sea-ice-ocean  simulations with 
 
 In this session, we will primarily look at some videos of those simulations produced at 1/36° (1 km) and 1/12° (4 km) with BBM rheology as well as with the standard aEVP rheology available in this model. 
 
-Workshop participants will also have access to the model outputs at 1/12° resolution so that they can  look at more specific diagnostics of their own during the following hackathon session.
+__Workshop participants will also have access to the model outputs at 1/12° resolution so that they can  look at more specific diagnostics of their own during the following hackathon session.__
 
 #### Videos:
 The videos that we will discuss in this session are available in this [YouTube playlist](https://www.youtube.com/playlist?list=PLvzG0ke9xnX6fLPuoiMdLpQa0SM7Mvujb). Only one video has been  uploaded so far but some more will be uploaded before the workshop.
 
 #### Model outputs:
-Model outputs will be available as netcdf files with this likn by the day of the workshop: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SASIP/extra-data-nextsim-workshop2025/hires-BBM/catalog.html
+Model outputs will be available as netcdf files with this link by the day of the workshop: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SASIP/extra-data-nextsim-workshop2025/hires-BBM/catalog.html
 
 Or to download any of the file with wget from the terminal:
 ```
