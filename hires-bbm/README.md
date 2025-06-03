@@ -16,7 +16,7 @@ The videos that we will discuss in this session are available in this [YouTube p
 #### Model outputs:
 Model outputs will be available as netcdf files with this [OpenDap link](https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SASIP/extra-data-nextsim-workshop2025/hires-BBM/catalog.html) by the day of the workshop.
 
-Or to download any of the file with wget from the terminal:
+Or to download any of the file with wget from the terminal (adjust the name of the file you wish to download):
 ```
  wget https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/fileServer/meomopendap/extract/SASIP/extra-data-nextsim-workshop2025/hires-BBM/your-file-to-download.nc
 ```
