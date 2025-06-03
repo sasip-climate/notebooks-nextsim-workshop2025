@@ -1,6 +1,20 @@
 # Material for the nextsim workshop
 
-This repo contains instructions on how to run nextsim tutorials presented at the nextsim workshop.
+This repo contains the material that will be displayed during neXtSIM workshop taking place in Brown University, Providence, 2025 June 26-27.
+Click on the link to access the notebook corresponding to the session :
+  
+  - [Introduction to neXtSIM and use cases](nextsimdg) - Einar Olason
+  - [Data assimilation in neXtSIM with NEDAS](assimilation/demo-osse.ipynb) - Yue (Michael) Ying
+  - [Data exploration: Antarctic neXtSIM](antarctic/README.md) - Christopher Horvat
+  - [Data exploration: wave-ice coupled neXtSIM-WW3](ww3-nextsim/tutorial_ww3-nextsim.ipynb) - Guillaume Boutin
+  - [Data exploration: kilometer-scale sea-ice-ocean coupled simulations with a brittle rheology](km-bbm/README.md) - Stephanie Leroux
+  - [neXtSIM: structure and design principles](nextsim-structure/README.md) - Timothy Spain
+  - [Use cases run on GPU](nextsimdg-gpu/README.md) - Robert Jendersie
+  - [How to implement a new parameterization in neXtSIM](nextsim-param/README.md) - Timothy Spain
+
+
+
+Here are the instructions on how to run this material on your own laptop.
 
 You need 3 ingredients :
   - the [notebooks](#notebooks)
@@ -45,11 +59,11 @@ You should have this tree of directories on your laptop :
 YOURPATH/nextsim-workshop
 ├── nextsim-workshop2025 (git repo)
 │   └── notebooks
-|       ├── data-assimiliation-nextsimdg
+|       ├── assimiliation
 │       ├── nextsimdg
 │       └── tuto
 ├── data-nextsim-workshop2025 (wget)
-│   ├── data-assimiliation-nextsimdg
+│   ├── assimiliation
 │   ├── nextsimdg
 │   └── tuto
 ```
