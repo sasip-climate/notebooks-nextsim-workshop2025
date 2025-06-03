@@ -1,3 +1,5 @@
+![image](snapshot36BBM.png)
+
 ## Kilometer-scale sea-ice-ocean coupled simulations with a brittle rheology
 Stephanie Leroux (Datlas, Grenoble), Pierre Rampal (IGE/CNRS, Grenoble), Laurent Brodeau (IGE/CNRS, Grenoble)
 
