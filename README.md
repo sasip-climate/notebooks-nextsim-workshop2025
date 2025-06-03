@@ -7,7 +7,7 @@ Click on the link to access the notebook corresponding to the session :
   - [Data assimilation in neXtSIM with NEDAS](assimilation/demo-osse.ipynb) - Yue (Michael) Ying
   - [Data exploration: Antarctic neXtSIM](antarctic/README.md) - Christopher Horvat
   - [Data exploration: wave-ice coupled neXtSIM-WW3](ww3-nextsim/tutorial_ww3-nextsim.ipynb) - Guillaume Boutin
-  - [Data exploration: kilometer-scale sea-ice-ocean coupled simulations with a brittle rheology](km-bbm/README.md) - Stephanie Leroux
+  - [Data exploration: kilometer-scale sea-ice-ocean coupled simulations with a brittle rheology](hires-bbm/README.md) - Stephanie Leroux
   - [neXtSIM: structure and design principles](nextsim-structure/README.md) - Timothy Spain
   - [Use cases run on GPU](nextsimdg-gpu/README.md) - Robert Jendersie
   - [How to implement a new parameterization in neXtSIM](nextsim-param/README.md) - Timothy Spain
