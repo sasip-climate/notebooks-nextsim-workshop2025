@@ -14,7 +14,7 @@ Workshop participants will also have access to the model outputs at 1/12° resol
 The videos that we will discuss in this session are available in this [YouTube playlist](https://www.youtube.com/playlist?list=PLvzG0ke9xnX6fLPuoiMdLpQa0SM7Mvujb). Only one video has been  uploaded so far but some more will be uploaded before the workshop.
 
 #### Model outputs:
-Model outputs will be available as netcdf files with this link by the day of the workshop: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SASIP/extra-data-nextsim-workshop2025/hires-BBM/catalog.html
+Model outputs will be available as netcdf files with this [OpenDap link](https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SASIP/extra-data-nextsim-workshop2025/hires-BBM/catalog.html) by the day of the workshop.
 
 Or to download any of the file with wget from the terminal:
 ```
