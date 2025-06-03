@@ -5,7 +5,7 @@ Click on the link to access the notebook corresponding to the session :
   
   - [Introduction to neXtSIM and use cases](nextsimdg) - Einar Olason
   - [Data assimilation in neXtSIM with NEDAS](assimilation/demo-osse.ipynb) - Yue (Michael) Ying
-  - Data exploration: Antarctic neXtSIM - Christopher Horvat
+  - [Data exploration: Antarctic neXtSIM](antarctic/README.md) - Christopher Horvat
   - [Data exploration: wave-ice coupled neXtSIM-WW3](ww3-nextsim/tutorial_ww3-nextsim.ipynb) - Guillaume Boutin
   - Data exploration: kilometer-scale sea-ice-ocean coupled simulations with a brittle rheology - Stephanie Leroux
   - neXtSIM: structure and design principles - Timothy Spain
