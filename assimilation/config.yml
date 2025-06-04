@@ -13,7 +13,7 @@ nens: 6
 debug: False
 
 time_start: 2010-01-01T00:00:00Z
-time_end: 2010-01-05T00:00:00Z
+time_end: 2010-01-04T00:00:00Z
 time_analysis_start: 2010-01-02T00:00:00Z
 time_analysis_end: 2010-01-04T00:00:00Z
 cycle_period: 6
