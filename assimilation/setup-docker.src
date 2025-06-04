@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 ulimit -s 2000000
 
 . /opt/spack-environment/activate.sh

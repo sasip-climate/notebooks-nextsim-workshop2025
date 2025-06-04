@@ -114,7 +114,7 @@ covariance_def:
   type: ensemble
 
 inflation_def:
-  type: posterior,multiplicative
+  type: prior,multiplicative
   adaptive: False
   coef: 1.0
 

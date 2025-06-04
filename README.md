@@ -4,7 +4,7 @@ This repo contains the material that will be displayed during neXtSIM workshop t
 Click on the link to access the notebook corresponding to the session :
   
   - [Introduction to neXtSIM and use cases](nextsimdg) - Einar Olason
-  - [Data assimilation in neXtSIM with NEDAS](assimilation/demo-osse.ipynb) - Yue (Michael) Ying
+  - [Data assimilation in neXtSIM with NEDAS](assimilation/demo-osse.ipynb) - Yue (Michael) Ying, Ali Aydogdu, Yumeng Chen
   - [Data exploration: Antarctic neXtSIM](antarctic/README.md) - Christopher Horvat
   - [Data exploration: wave-ice coupled neXtSIM-WW3](ww3-nextsim/tutorial_ww3-nextsim.ipynb) - Guillaume Boutin
   - [Data exploration: kilometer-scale sea-ice-ocean coupled simulations with a brittle rheology](hires-bbm/README.md) - Stephanie Leroux
@@ -57,15 +57,14 @@ You should have this tree of directories on your laptop :
 
 ```
 YOURPATH/nextsim-workshop
-├── nextsim-workshop2025 (git repo)
-│   └── notebooks
-|       ├── assimiliation
-│       ├── nextsimdg
-│       └── tuto
-├── data-nextsim-workshop2025 (wget)
-│   ├── assimiliation
+├── notebooks-nextsim-workshop2025 (git repo)
+│   ├── assimilation
 │   ├── nextsimdg
-│   └── tuto
+│   └── ...
+├── data-nextsim-workshop2025 (wget)
+│   ├── assimilation
+│   ├── nextsimdg
+│   └── ...
 ```
 
 And the mirror of it on jupyterlab, with extra repositories `NEDAS` and `nextsimdg` at the same level than `nextsim-workshop`
