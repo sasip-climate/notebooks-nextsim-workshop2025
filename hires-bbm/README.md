@@ -15,8 +15,9 @@ Workshop participants will also have access to the model outputs at 1/12° resol
 
 #### MODEL OUTPUTS:
 * Model outputs will be available as netcdf files with this [OpenDap link](https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SASIP/extra-data-nextsim-workshop2025/hires-BBM/catalog.html) by the day of the workshop.
+* We will also provide some lagrangian trajectories of tracers computed from the simulations,  initialized every 10 days at the locations of observed sea ice buoys from the IABP database during the simulated period (winder 1997). Those trajectories will be available on the same link as above.
 
-Or to download any of the file with wget from the terminal (adjust the name of the file you wish to download):
+To download any of the files with wget from the terminal (adjust the name of the file you wish to download):
 ```
  wget https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/fileServer/meomopendap/extract/SASIP/extra-data-nextsim-workshop2025/hires-BBM/your-file-to-download.nc
 ```
