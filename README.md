@@ -42,4 +42,4 @@ A jupyterlab is now deployed, you just have to open in a browser the given adres
 
 You should have this jupyterlab session open in a browser :
 
-![docker-pic.png]()
+![](docker-pic.png)
