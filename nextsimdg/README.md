@@ -11,7 +11,7 @@ After a general introduction to neXtSIM, we will explore three use cases of the 
 ### Single column thermodynamics
 This use case runs the model in a single-column mode with only thermodynamics activated. It runs very fast, so the setup can be used to explore changes in seasonality due to changes in forcing, snowload, etc. It can also be used to develop new parameterisations for the column physics (see the [session on developing new parameterisations](../nextsim-param/README.md)).
 
-![image](Winton_2000_Fig1)
+![image](Winton_2000_Fig1.png)
 (from Winton, 2000)
 
 
