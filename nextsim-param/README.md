@@ -6,7 +6,7 @@ Demonstration session:
 Tim Spain and Einar Ólason (NERSC, Bergen, Norway)
 
 ### What we will do in this demonstration session:
-We will examine how to write a new parameterisation for neXtSIM. In the example, we'll write a parameterisation of lateral ice formation and melt based on Mellor and Kantha (1989). We will try it out in the polynya setup from the nextsimdg session. We will focus on ice formation, as that setup does not cover ice melt. The work requires understanding the program structure and design presented earlier in the day.
+We will examine how to write a new parameterisation for neXtSIM. In the example, we'll write a parameterisation of lateral ice formation and melt based on Mellor and Kantha (1989). We will try it out in the [polynya setup](../nextsimdg/demo-polynya.ipynb) from the [nextsimdg session](../nextsimdg). We will focus on ice formation, as that setup does not cover ice melt. The work requires understanding the program structure and design presented earlier in the day.
 
 ### The main steps to create a new parameterisation, using the existing module infrastructure:
 
