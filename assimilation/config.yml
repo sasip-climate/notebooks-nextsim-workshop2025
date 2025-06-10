@@ -1,6 +1,6 @@
-work_dir: /home/nextsim-workshop/data-nextsim-workshop2025/assimilation
+work_dir: /home/data-nextsim-workshop2025/assimilation
 
-python_env: /home/nextsim-workshop/notebooks-nextsim-workshop2025/assimilation/python.src
+python_env: /home/notebooks-nextsim-workshop2025/assimilation/python.src
 
 job_submit:
   host:
@@ -77,17 +77,17 @@ dataset_def:
 
 model_def:
   nextsim.dg:
-    config_file: '/home/nextsim-workshop/notebooks-nextsim-workshop2025/assimilation/nextsim-config.yml'
-    model_env: '/home/nextsim-workshop/notebooks-nextsim-workshop2025/assimilation/setup-docker.src'
-    model_config_file: '/home/nextsim-workshop/notebooks-nextsim-workshop2025/assimilation/template.cfg'
+    config_file: '/home/notebooks-nextsim-workshop2025/assimilation/nextsim-config.yml'
+    model_env: '/home/notebooks-nextsim-workshop2025/assimilation/setup-docker.src'
+    model_config_file: '/home/notebooks-nextsim-workshop2025/assimilation/template.cfg'
     nproc_per_run: 1
     nproc_per_util: 1
     parallel_mode: openmp
     walltime: 1000
     ens_run_type: scheduler
     use_job_array: False
-    ens_init_dir: '/home/nextsim-workshop/data-nextsim-workshop2025/assimilation/icbc'
-    truth_dir: '/home/nextsim-workshop/data-nextsim-workshop2025/assimilation/truth'
+    ens_init_dir: '/home/data-nextsim-workshop2025/assimilation/icbc'
+    truth_dir: '/home/data-nextsim-workshop2025/assimilation/truth'
 
 use_synthetic_obs: True
 
