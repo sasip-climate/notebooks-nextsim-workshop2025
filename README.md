@@ -19,7 +19,7 @@ Click on the link to access the notebook corresponding to the session :
 Here are the instructions on how to run this material on your own laptop.
 
 **Prerequisites** : You will need a recent version of docker on your machine, if you do not have it already you can install it from here : https://docs.docker.com/get-started/get-docker/
-You will also need around 5Gb of storage for the docker image and the data it contains
+You will also need around 5Gb of storage for the docker image and the data it contains.
 
 You need 2 ingredients :
   - the notebooks
@@ -46,6 +46,11 @@ A jupyterlab is now deployed, you just have to open in a browser the given adres
 
 ## Results
 
-You should have this jupyterlab session open in a browser :
+You should have this jupyterlab session open in a browser (learn how to work in a jupyterlab framework [here](https://jupyterlab.readthedocs.io/en/stable/user/interface.html)):
 
 ![](docker-pic.png)
+
+You can now navigate in the notebooks repository (left panel) and open the Welcome.ipynb notebook :
+
+![](welcome.png)
+
