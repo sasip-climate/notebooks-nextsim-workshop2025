@@ -32,7 +32,7 @@ You need 2 ingredients :
 git clone https://github.com/sasip-climate/notebooks-nextsim-workshop2025.git
 ```
 
-It will create a directory called `nextsim-workshop2025`
+It will create a directory called `notebooks-nextsim-workshop2025`
 
 **Second step** : The docker image contains the python libraries, a compiled version of nextsimdg and other tools and the data required to run the notebooks. It can be downloaded with this command :
 
