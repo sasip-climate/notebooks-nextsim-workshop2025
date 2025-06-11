@@ -9,6 +9,8 @@ Tim Spain and Einar Ólason (NERSC, Bergen, Norway)
 
 We will introduce the structure and design principles of the latest neXtSIM version. The model is written using ISO C++17, and the design aims to take advantage of the language's object orientation. This README lists the most important basic concepts. The session itself will delve into this in more detail.
 
+![](../nextsimdg.png)
+
 ### Simplified program call sequence
 
 The call structure is based on creating and calling four main objects: ``Model``, ``Iterator``, ``Iterant``, and ``PrognosticData``. ``PrognosticData``, in turn, calls four main modules derived from the interface classes ``IAtmosphereBoundary``, ``IOceanBoundary``, ``IDynamics``, and ``IceGrowth`` (of which there is still only one instance). The simplified program call sequence (ignoring several initialisation and I/O calls) looks like this:
