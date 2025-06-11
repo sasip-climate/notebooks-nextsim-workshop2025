@@ -13,9 +13,9 @@ We will examine how to write a new parameterisation for neXtSIM. In the example,
  0. [Fork](https://github.com/nextsimhub/nextsimdg/fork) the [nextsimdg](https://github.com/nextsimhub/nextsimdg) repository and work on your branch.
  1. Identify the module to which the parameterisation belongs. In the demonstration case, this is the LateralSpreadModule in the [physics/src/modules/LateralIceSpreadModule](https://github.com/nextsimdg/nextsimdg/blob/1279acb6220bfbdd20ec847e5dfcbf992424a072/physics/src/modules/LateralIceSpreadModule]) directory.
  2. Implement the new functionality in a new source file (.cpp) and header file in the include directory. Make sure the new class inherits from the interface base class. In the demonstration case, this is [physics/src/modules/include/ILateralIceSpread.hpp](https://github.com/nextsimdg/nextsimdg/blob/b0ad5cf86e6082d2134c43a9b8ec2b286009cb63/physics/src/modules/include/ILateralIceSpread.hpp).
- 3. Add the new module to the module.cfg file. In the demonstration case, this is [physics/src/modules/LateralIceSpreadModule/module.cfg](https://github.com/nextsimdg/nextsimdg/blob/60d09b143af90a1719dcdfb508173891d148bffc/physics/src/modules/LateralIceSpreadModule/module.cfg)
-Rerun cmake to auto-generate the module.cpp file in the module directory.
- 4. (Optional) Create a pull request on GitHub to ask to merge your new module into the main model repository.
+ 3. Add the new module to the module.cfg file. In the demonstration case, this is [physics/src/modules/LateralIceSpreadModule/module.cfg](https://github.com/nextsimdg/nextsimdg/blob/60d09b143af90a1719dcdfb508173891d148bffc/physics/src/modules/LateralIceSpreadModule/module.cfg). Rerun cmake to auto-generate the module.cpp file in the module directory.
+ 4. Create a unit test to make sure your code works as expected (e.g. [physics/test/DamageHealing_test.cpp](https://github.com/nextsimdg/nextsimdg/blob/5bf5ad666acf10d5838dbfc841872bb94c169b90/physics/test/DamageHealing_test.cpp)). If the test is found in the CMakeList.txt file of the test directory, it will be run as part of the continuous integration (CI) on GitHub.
+ 5. (Optional) Create a pull request on GitHub to ask to merge your new module into the main model repository.
 
 ### References:
 
