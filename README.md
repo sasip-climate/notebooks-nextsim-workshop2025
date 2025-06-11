@@ -5,7 +5,7 @@ Click on the link to access the notebook corresponding to the session :
 
 ## Program
 
-  - [Introduction to neXtSIM and use cases](nextsimdg) - Einar Olason
+  - [Introduction to neXtSIM and use cases](nextsimdg/README.md) - Einar Olason
   - [Data assimilation in neXtSIM with NEDAS](assimilation/demo-osse.ipynb) - Yue (Michael) Ying, Ali Aydogdu, Yumeng Chen
   - [Data exploration: Antarctic neXtSIM](antarctic/examine_BBM_EVP.ipynb) - Christopher Horvat
   - [Data exploration: wave-ice coupled neXtSIM-WW3](ww3-nextsim/tutorial_ww3-nextsim.ipynb) - Guillaume Boutin
