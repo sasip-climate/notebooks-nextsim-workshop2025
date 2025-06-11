@@ -9,7 +9,7 @@ Einar Ólason (NERSC, Bergen, Norway)
 After a general introduction to neXtSIM, we will explore three use cases of the discontinuous Galerkin-based code under development.
 
 ### Single column thermodynamics
-This use case runs the model in a single-column mode with only thermodynamics activated. It runs very fast, so the setup can be used to explore changes in seasonality due to changes in forcing, snowload, etc. It can also be used to develop new parameterisations for the column physics (see the [session on developing new parameterisations](../nextsim-param/README.md)).
+This [use case](demo-thermo.ipynb) runs the model in a single-column mode with only thermodynamics activated. It runs very fast, so the setup can be used to explore changes in seasonality due to changes in forcing, snowload, etc. It can also be used to develop new parameterisations for the column physics (see the [session on developing new parameterisations](../nextsim-param/README.md)).
 
 #### Suggested reading:
 
@@ -21,7 +21,7 @@ Winton, M. (2000). A reformulated three-layer sea ice model. Journal of Atmosphe
 
 
 ### Idealised polynya
-This case simulates a polynya forming in a semi-enclosed basin. Constant wind pushes the ice towards the shore on one side and out of the domain, opening up a coastal polynya upwind. This setup can be used to explore ice formation in open water and to develop new parameterisations for this (as we will demonstrate in the [session on developing new parameterisations](../nextsim-param/README.md)).
+This [case](demo-polynya.ipynb) simulates a polynya forming in a semi-enclosed basin. Constant wind pushes the ice towards the shore on one side and out of the domain, opening up a coastal polynya upwind. This setup can be used to explore ice formation in open water and to develop new parameterisations for this (as we will demonstrate in the [session on developing new parameterisations](../nextsim-param/README.md)).
 
 #### Suggested reading:
 
@@ -30,7 +30,7 @@ Bjornsson, H., Willmott, A. J., Mysak, L. A., & Morales Maqueda, M. A. (2001). P
 Ólason, E. Ö., & Harms, I. (2010). Polynyas in a dynamic-thermodynamic sea-ice model. The Cryosphere, 4(2), 147–160. [10.5194/tc-4-147-2010](https://doi.org/10.5194/tc-4-147-2010)
 
 ### Realistic 25 km resolution setup
-This case demonstrates the model running in a realistic setup at medium resolution. We include it mainly for demonstration purposes, but it clearly shows areas of high deformation forming as weather systems pass over the Arctic. Despite the coarse resolution, we can identify localised bands of high shear, similar to previously published results.
+This [case](demo-realistic.ipynb) demonstrates the model running in a realistic setup at medium resolution. We include it mainly for demonstration purposes, but it clearly shows areas of high deformation forming as weather systems pass over the Arctic. Despite the coarse resolution, we can identify localised bands of high shear, similar to previously published results.
 
 ### Suggested reading:
 
