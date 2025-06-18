@@ -23,7 +23,7 @@ We will explore a dataset made of  sea-ice-ocean  simulations with the SI3-NEMO 
 
 To download any of the files with wget from the terminal (adjust the name of the file you wish to download):
 ```
- wget https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/fileServer/meomopendap/extract/SASIP/extra-data-nextsim-workshop2025/hires-BBM/your-file-to-download.nc
+ wget https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/fileServer/meomopendap/extract/SASIP/extra-data-nextsim-workshop2025/hires-BBM/NANUK12-aEVP/your-file-to-download.nc
 ```
 
 ---
