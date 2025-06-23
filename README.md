@@ -42,6 +42,8 @@ docker run --rm -v /YOURPATH/notebooks-nextsim-workshop2025:/home/notebooks-next
 
 where `YOURPATH` must be replaced by the absolute path on your laptop leading to the `notebooks-nextsim-workshop2025` directory created by the first step
 
+📌 Be careful that YOURPATH does not have any blank spaces in it !!
+
 A jupyterlab is now deployed, you just have to open in a browser the given adress `http://127.0.0.1:8888/lab?token=...` with your assigned token
 
 If the command returns ```WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested```, try this alternative command:
