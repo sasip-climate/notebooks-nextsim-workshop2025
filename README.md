@@ -61,3 +61,7 @@ You can now navigate in the notebooks repository (left panel) and open the Welco
 
 ![](welcome.png)
 
+After closing your browser, you can relaunch at any time by re-executing the command ```docker run --rm -v /YOURPATH/notebooks-nextsim-workshop2025:/home/notebooks-nextsim-workshop2025 -p 8888:8888 quay.io/auraoupa/nextsim-workshop:2ebf5817a75f```, it will take much less time since the docker image is now on your computer.
+
+At the start of the workshop, you will have to get the latest version of the notebooks by doing a ```git pull``` while inside the notebooks-workshop2025 repository
+
