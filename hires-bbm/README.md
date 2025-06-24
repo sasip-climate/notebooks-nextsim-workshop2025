@@ -29,8 +29,8 @@ To download any of the files with wget from the terminal (adjust the name of the
 ---
 ### SUGGESTIONS FOR THE HACKATHON SESSION:
 Some suggestions for your hackathon project:
-1. Download and explore the lagrangian trajectories provided from our 1/12° sea ice simulations. It is a light dataset and you will be able to compare the simulated trajectories from our simulations with the two types of rheology (BBM and aEVP), and with the real observed trajectories from the [IABP observation program](https://iabp.apl.uw.edu/).
-2. Download the model gridded outputs to apply some diagnostics of your own on the sea ice fields available hourly or every 3h.
+1. Download the model gridded outputs to apply some diagnostics of your own on the sea ice fields available hourly or every 3h.
+2. Download and explore the lagrangian trajectories provided from our 1/12° sea ice simulations. It is a light dataset and you will be able to compare the simulated trajectories from our simulations with the two types of rheology (BBM and aEVP), and with the real observed trajectories from the [IABP observation program](https://iabp.apl.uw.edu/). An example notebook to start working with those files is available [here](2025-06-24_trajNANUK12_workshop.ipynb).
 3. Just browse some of the videos on our [YouTube channel](https://www.youtube.com/playlist?list=PLvzG0ke9xnX6fLPuoiMdLpQa0SM7Mvujb).
 
 Then don't forget to list your project idea in the [workshop sheet [here]](https://docs.google.com/spreadsheets/d/1OgvTLPxvWeuxptNd_5-aiuCvT09M2M-Gbqnf7QnHIq0/edit?usp=sharing).
