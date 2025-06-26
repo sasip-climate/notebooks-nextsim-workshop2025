@@ -73,3 +73,5 @@ At the start of the workshop, you will have to get the latest version of the not
 
 You can use binder here : https://mybinder.org/v2/gh/sasip-climate/docker-image-nextsim-workshop/data
 Warning it will be slow !
+
+While inside the binder, launch a terminal and clone the notebooks there : ```git clone https://github.com/sasip-climate/notebooks-nextsim-workshop2025.git```
