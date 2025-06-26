@@ -52,6 +52,7 @@ If the command returns ```WARNING: The requested image's platform (linux/amd64) 
 docker run --rm -v /YOURPATH/notebooks-nextsim-workshop2025:/home/notebooks-nextsim-workshop2025 -p 8888:8888 ghcr.io/sasip-climate/workshop:latest 
 ```
 
+If the command returns ```docker: Cannot connect to the Docker daemon at unix:///Users/alberta/.docker/run/docker.sock. Is the docker daemon running?```, you just need to launch the docker desktop !
 
 ## Results
 
