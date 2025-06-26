@@ -68,3 +68,8 @@ After closing your browser, you can relaunch at any time by re-executing the com
 
 At the start of the workshop, you will have to get the latest version of the notebooks by doing a ```git pull``` while inside the notebooks-workshop2025 repository
 
+
+## Online alternative
+
+You can use binder here : https://mybinder.org/v2/gh/sasip-climate/docker-image-nextsim-workshop/data
+Warning it will be slow !
