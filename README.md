@@ -52,6 +52,7 @@ If the command returns ```WARNING: The requested image's platform (linux/amd64) 
 docker run --rm -v /YOURPATH/notebooks-nextsim-workshop2025:/home/notebooks-nextsim-workshop2025 -p 8888:8888 ghcr.io/sasip-climate/workshop:latest 
 ```
 
+If the command returns ```docker: Cannot connect to the Docker daemon at unix:///Users/alberta/.docker/run/docker.sock. Is the docker daemon running?```, you just need to launch the docker desktop !
 
 ## Results
 
@@ -67,3 +68,10 @@ After closing your browser, you can relaunch at any time by re-executing the com
 
 At the start of the workshop, you will have to get the latest version of the notebooks by doing a ```git pull``` while inside the notebooks-workshop2025 repository
 
+
+## Online alternative
+
+You can use binder here : https://mybinder.org/v2/gh/sasip-climate/docker-image-nextsim-workshop/data
+Warning it will be slow !
+
+While inside the binder, launch a terminal and clone the notebooks there : ```git clone https://github.com/sasip-climate/notebooks-nextsim-workshop2025.git```
