@@ -9,7 +9,7 @@ dx: 5e4
 
 restart_dt: 24  ##model restart interval (hours)
 output_dt: 24
-mask_file: '/home/data-nextsim-workshop2025/assimilation/icbc/restart2010-01-01T00:00:00Z.nc'
+mask_file: '/home/notebooks-nextsim-workshop2025/assimilation/scratch/icbc/restart2010-01-01T00:00:00Z.nc'
 
 ##physical parameters
 dg_comp: 6
@@ -33,7 +33,7 @@ files:
     # 3. otherwise, change the way we obtain filenames in
     #    function get_restart_filename
     #    in models/nextsim/dg/model/restart.py
-    format: '/home/data-nextsim-workshop2025/assimilation/icbc/restart{time}.nc'
+    format: '/home/notebooks-nextsim-workshop2025/assimilation/scratch/icbc/restart{time}.nc'
     # this is the time_format used to derive the time string in restart filename
     # this follows the strftime format
     # See `https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes`_
@@ -58,7 +58,7 @@ files:
       # 3. otherwise, change the way we obtain filenames in
       #    function get_forcing_filename
       #    in models/nextsim/dg/model/forcing.py
-      format: '/home/data-nextsim-workshop2025/assimilation/icbc/25km_NH.ERA5.nc'
+      format: '/home/notebooks-nextsim-workshop2025/assimilation/scratch/icbc/25km_NH.ERA5.nc'
       # datetime format to fill start and end date of the forcing file format
       datetime_format: '%Y-%m-%d'
       # initial start date of all the forcing file
@@ -89,7 +89,7 @@ files:
       # 3. otherwise, change the way we obtain filenames in
       #    function get_forcing_filename
       #    in models/nextsim/dg/model/forcing.py
-      format: '/home/data-nextsim-workshop2025/assimilation/icbc/25km_NH.TOPAZ4.nc'
+      format: '/home/notebooks-nextsim-workshop2025/assimilation/scratch/icbc/25km_NH.TOPAZ4.nc'
       # datetime format to fill start and end date of the forcing file format
       datetime_format: '%Y-%m-%d'
       # initial start date of all the forcing file
@@ -133,7 +133,7 @@ perturb:
         upper_bounds: [None, None, None, None, None, None]
   forcing:
     # this is used to save the perturbation files (.npy format)
-    path: '/home/data-nextsim-workshop2025/assimilation/perturb'
+    path: '/home/notebooks-nextsim-workshop2025/assimilation/scratch/perturb'
     # section names must correspond to section names under files
     # e.g., atmosphere, ocean
     # atmosphere perturbation settings
@@ -205,4 +205,3 @@ perturb:
         lower_bounds: [None, 0., None, None, None]
         # upper bounds of the data
         upper_bounds: [None, None, None, None, None]
-
