@@ -130,7 +130,7 @@ perturb:
         # lower bounds of the data
         lower_bounds: [0., 0., 0., None, None, None]
         # upper bounds of the data
-        upper_bounds: [None, None, None, None, None, None]
+        upper_bounds: [1., None, None, None, None, None]
   forcing:
     # this is used to save the perturbation files (.npy format)
     path: '/home/notebooks-nextsim-workshop2025/assimilation/scratch/perturb'

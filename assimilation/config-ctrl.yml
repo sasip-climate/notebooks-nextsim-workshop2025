@@ -54,6 +54,8 @@ state_def:
 obs_def:
 - name: seaice_conc
   dataset_src: osisaf.ice_conc
+#- name: seaice_thick
+#  dataset_src: cs2smos
   model_src: nextsim.dg
   nobs: 1000
   err:
