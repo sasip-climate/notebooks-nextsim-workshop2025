@@ -1,4 +1,4 @@
-work_dir: /home/data-nextsim-workshop2025/assimilation
+work_dir: /home/notebooks-nextsim-workshop2025/assimilation/scratch
 
 python_env: /home/notebooks-nextsim-workshop2025/assimilation/python.src
 
@@ -54,6 +54,8 @@ state_def:
 obs_def:
 - name: seaice_conc
   dataset_src: osisaf.ice_conc
+#- name: seaice_thick
+#  dataset_src: cs2smos
   model_src: nextsim.dg
   nobs: 1000
   err:
@@ -86,8 +88,8 @@ model_def:
     walltime: 1000
     ens_run_type: scheduler
     use_job_array: False
-    ens_init_dir: '/home/data-nextsim-workshop2025/assimilation/icbc'
-    truth_dir: '/home/data-nextsim-workshop2025/assimilation/truth'
+    ens_init_dir: '/home/notebooks-nextsim-workshop2025/assimilation/scratch/icbc'
+    truth_dir: '/home/notebooks-nextsim-workshop2025/assimilation/scratch/truth'
 
 use_synthetic_obs: True
 
@@ -137,4 +139,3 @@ diag:
   variables: ['seaice_conc', 'seaice_thick', 'seaice_velocity']
   grid_def:
   file: '{work_dir}/output/mem{member:03}_{time:%Y-%m-%dT%H}.nc'
-
