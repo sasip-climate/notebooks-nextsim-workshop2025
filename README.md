@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16278493.svg)](https://doi.org/10.5281/zenodo.16278493)
 # Material for the nextsim workshop
 
 This repo contains the material that will be displayed during neXtSIM workshop taking place in Brown University, Providence, 2025 June 26-27.
