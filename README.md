@@ -30,7 +30,7 @@ You need 2 ingredients :
 **First step** : The notebooks are stored in this very repo, download them with : 
 
 ```bash
-git clone https://github.com/sasip-climate/notebooks-nextsim-workshop2025.git
+git clone -b update2026 https://github.com/sasip-climate/notebooks-nextsim-workshop2025.git
 ```
 
 It will create a directory called `notebooks-nextsim-workshop2025`
@@ -38,7 +38,7 @@ It will create a directory called `notebooks-nextsim-workshop2025`
 **Second step** : The docker image contains the python libraries, a compiled version of nextsimdg and other tools and the data required to run the notebooks. It can be downloaded with this command (after having started the docker Desktop) :
 
 ```bash
-docker run --rm -v /YOURPATH/notebooks-nextsim-workshop2025:/home/notebooks-nextsim-workshop2025 -p 8888:8888 quay.io/auraoupa/nextsim-workshop:2ebf5817a75f 
+docker run --rm -v /YOURPATH/notebooks-nextsim-workshop2025:/home/notebooks-nextsim-workshop2025 -p 8888:8888 quay.io/auraoupa/nextsim-workshop:132828666ef1 
 ```
 
 where `YOURPATH` must be replaced by the absolute path on your laptop leading to the `notebooks-nextsim-workshop2025` directory created by the first step
