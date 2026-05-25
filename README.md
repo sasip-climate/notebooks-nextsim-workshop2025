@@ -1,4 +1,18 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16278493.svg)](https://doi.org/10.5281/zenodo.16278493)
+
+# Update June, 2026
+
+References for material and data :
+  - Notebooks (contact the respective author) and neXtSIM test cases (contact Einar Olason) : https://doi.org/10.5281/zenodo.16278493
+  - NEDAS (contact Michael (Yue) Ying) : software : https://doi.org/10.5281/zenodo.10525331, data : https://zenodo.org/records/16543766 
+  - neXtSIM-WW3 runs (contact Guillaume Boutin) : https://doi.org/10.11582/2025.ffmc0pcm
+  - Antarctic neXtSIM runs (contact Chris Horvat) : data : https://zenodo.org/records/12770130, paper : doi.org/10.1029/2024MS004584
+  - NEMO-SI3 runs (contact Pierre Rampal) : paper : https://doi.org/10.5194/gmd-17-6051-2024 
+     - BBM run, sea-ice variables : https://www.seanoe.org/data/00962/107357/
+     - BBM run, ocean variables : https://www.seanoe.org/data/00964/107591/
+     - EVP run, sea-ice variables : https://www.seanoe.org/data/00964/107587/
+     - EVP run, ocean variables : https://www.seanoe.org/data/00964/107590/
+
 # Material for the nextsim workshop
 
 This repo contains the material that will be displayed during neXtSIM workshop taking place in Brown University, Providence, 2025 June 26-27.
