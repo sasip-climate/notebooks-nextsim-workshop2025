@@ -1,8 +1,0 @@
-#!/usr/bin/bash
-
-ulimit -s 2000000
-
-. /opt/spack-environment/activate.sh
-
-export NDG_BLD_DIR=/home/nextsimdg/build
-export OMP_NUM_THREADS=1
