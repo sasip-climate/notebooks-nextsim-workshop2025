@@ -4,6 +4,7 @@
 
 References for material and data :
   - Notebooks (contact the respective author) and neXtSIM test cases (contact Einar Olason) : https://doi.org/10.5281/zenodo.16278493
+  - NEDAS (contact Michael (Yue) Ying) : software : https://doi.org/10.5281/zenodo.10525331, data : https://zenodo.org/records/16543766 
   - neXtSIM-WW3 runs (contact Guillaume Boutin) : https://doi.org/10.11582/2025.ffmc0pcm
   - Antarctic neXtSIM runs (contact Chris Horvat) : data : https://zenodo.org/records/12770130, paper : doi.org/10.1029/2024MS004584
   - NEMO-SI3 runs (contact Pierre Rampal) : paper : https://doi.org/10.5194/gmd-17-6051-2024 
@@ -20,6 +21,7 @@ Click on the link to access the notebook corresponding to the session :
 ## Program
 
   - [Introduction to neXtSIM and use cases](nextsimdg/README.md) - Einar Olason
+  - [Data assimilation in neXtSIM with NEDAS](assimilation/demo-osse.ipynb) - Yue (Michael) Ying, Ali Aydogdu, Yumeng Chen
   - [Data exploration: Antarctic neXtSIM](antarctic/examine_BBM_EVP.ipynb) - Christopher Horvat
   - [Data exploration: wave-ice coupled neXtSIM-WW3](ww3-nextsim/tutorial_ww3-nextsim.ipynb) - Guillaume Boutin
   - [Data exploration: kilometer-scale sea-ice-ocean coupled simulations with a brittle rheology](hires-bbm/README.md) - Stéphanie Leroux
